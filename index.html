@@ -1,68 +1,57 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Daniel Guerrero's Portfolio</title>
-        <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant|Cormorant+SC|Cormorant+Unicase|Gupter|Old+Standard+TT|Playfair+Display+SC|Rhodium+Libre&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./styles/main.css" />
+<html lang="en">
+<head>
+  <title>Daniel Guerrero's Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/main.css"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="sidenav">
+  <div class="image-cropper">
+    <img src="DSL_7035.jpg" class="rounded" />
+  </div>
+  <a href="#about">Projects</a>
+  <a href="#education">Education</a>
+  <a href="#aboutme">About Me</a>
+</div>
 
-    </head>
-    <body>
-        <header>
-            
-            <div class="name"; align= "center";><div><strong> D a n i e l </strong></div> <div><strong> G u e r r e r o </strong></div></div> <br>
-            <div class="links">
-              <div class="link">
-                <a href="https://www.linkedin.com/in/daguerrero1/" target="_blank">L i n k e d I n</a>
-              </div>
-              <div class="link">
-                <a href="https://github.com/itsdanielguerrero" target="_blank">G i t H u b</a>
-              </div>
-              <div class="link">
-                <a href="" target="_blank">R e s u m e</a>
-              </div>
-            </div>
-        </header>
-    
-        <br>
-        <div class="about">
-            <div class= "photo"></div>
-            <div class="aboutme">
-                <p>
-                        If you are looking for a team oriented individual with great communication skills and effective organizational skills then look no 
-                        further. I know the importance of being personable and paying attention to detail as it concerns effective problem solving methods.
-                        As a member of your team I vow to be hard working, personable, and effective. Believe it!
-                </p>
-            </div>
-        </div>
 
-        <br>
-    
-        <div class="links">
-            <a align= "center";>My Projects</a>
-        </div>
-        <br>
-        <div class="projs">
-            <h3 align= "center";>Alexa Skill - Cocktail Recipes</h3>
-            <p align= "center";>A published Amazon Alexa skill that conects to </p> 
-            <p align= "center";>Cocktail DB API and allows Alexa to instruct users </p>
-            <p align= "center";>in the art of cocktail making!</p>
-            <a href="https://github.com/itsdanielguerrero/cocktail-recipes" target="_blank">
-            <button class="button" style="vertical-align:middle"><span>Go to GitHub </span></button>
-            </a>
-            <h3 align= "center";>Movie Api</h3>
-            <p align= "center";>
-                A database backed Express API that has access to AFI top 100 Movies
-            </p>
-            <a href="https://github.com/itsdanielguerrero/movie-api" target="_blank">
-                <button class="button" style="vertical-align:middle"><span>Go to GitHub </span></button>
-            </a>
-            <h3 align= "center";>Order Book</h3>
-            <p align= "center";> A Node JS project that tracks all buy and sell</p> 
-            <p align= "center";>requests from traders for Bitcoin assets using higher</p>
-            <p align= "center";>order JS functions such as map, filter and, reduce.</p>
-            <a href="https://github.com/itsdanielguerrero/order-book" target="_blank">
-                <button class="button" style="vertical-align:middle"><span>Go to GitHub </span></button>
-            </a>
-        </div>
-    </body>
+<div class="jumbotron text-center">
+  <h1>Daniel Guerrero</h1>
+  <p>Web Developer</p> 
+</div>
+  
+<div class="d-flex justify-content-center">
+  <div class="col-sm-4">
+    <div class="projs">
+      <h3>Alexa Skill</h3>
+      <p>A published Amazon Alexa skill that conects to Cocktail DB API and allows Alexa to instruct users in the art of cocktail making!</p>
+      <a href="https://github.com/itsdanielguerrero/cocktail-recipes" target="_blank">
+        <button class="button" style="vertical-align:middle"><span>Go to GitHub </span></button>
+      </a>
+    </div>
+    <div class="projs">
+      <h3>Movie API</h3>
+      <p>A database backed Express API that has access to AFI </p>
+      <p>top 100 Movies. This a full function backend web application</p></p>
+      <a href="https://github.com/itsdanielguerrero/movie-api" target="_blank">
+          <button class="button" style="vertical-align:middle"><span>Go to GitHub </span></button>
+      </a>
+    </div>
+    <div class="projs">
+      <h3>Order Book</h3>        
+      <p> A Node JS project that tracks all buy and sell</p> 
+      <p>requests from traders for Bitcoin assets using higher</p>
+      <p>order JS functions such as map, filter and, reduce.</p>
+      <a href="https://github.com/itsdanielguerrero/order-book" target="_blank">
+          <button class="button" style="vertical-align:middle"><span>Go to GitHub </span></button>
+      </a>
+    </div>
+  </div>
+</div>
+
+</body>
 </html>
