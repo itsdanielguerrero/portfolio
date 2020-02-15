@@ -1,51 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Daniel Guerrero's Portfolio</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles/main.css"/>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</head>
-<body>
+<html lang="en" style="background-image: url('neon.jpg'); background-size: 100%;">
 
-<div class="container-fluid text-center sticky-top" style="background-image: url('volcano.jpg'); background-size: 100%; height: 150px;">
-  <div class="image-cropper float-right">
-    <img src="DSL_7035.jpg" class="rounded img-fluid">
-  </div>
-  <h1>Daniel Guerrero</h1>
-  <p>Web Developer</p> 
-</div>
+  <head>
+    <title>Daniel Guerrero's Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada|Raleway&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/05e5c0e88c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/main.css"/>
+  </head>
 
-<div class="main-proj" style="background-image: url('computer_display.jpg'); background-size: 100%;">
-  <div class="col-sm-4">
-    <div class="projs">
-      <h3>Alexa Skill</h3>
-      <p>A published Amazon Alexa skill that conects to Cocktail DB API and allows Alexa to instruct users in the art of cocktail making!</p>
-      <a href="https://github.com/itsdanielguerrero/cocktail-recipes" target="_blank">
-        <button class="button" style="vertical-align:middle"><span>Go to GitHub </span></button>
-      </a>
-    </div>
-    <div class="projs">
-      <h3>Movie API</h3>
-      <p>A database backed Express API that has access to AFI </p>
-      <p>top 100 Movies. This a full function backend web application</p></p>
-      <a href="https://github.com/itsdanielguerrero/movie-api" target="_blank">
+  <body>
+    <div>
+      <img src="neon.jpg" alt="Neon" style="width:100%; background-repeat: no-repeat;">
+      <div class="links">
+        <a href="https://www.linkedin.com/in/daguerrero1/" target="_blank"><i class="fab fa-linkedin fa-3x" style="color: whitesmoke; margin: 20px"></i></a>
+        <a href="https://github.com/itsdanielguerrero" target="_blank"><i class="fab fa-github fa-3x" style="color: whitesmoke; margin: 20px"></i></a>
+        <a href="" target="_blank"><i class="fas fa-file fa-3x" style="color: whitesmoke; margin: 20px"></i></a>
+      </div>
+      
+      <div class="image-cropper">
+        <img src="DSL_7035.jpg" class="rounded img-fluid">
+      </div>
+
+      <div class="centered">
+        <h1>Web Developer</h1> 
+        <h4>His name... Daniel Guerrero</h4>
+        <br>
+      </div>
+      
+      <div class="projone">
+        <h3>Alexa Skill</h3>
+        <p>A published Amazon Alexa skill that conects to Cocktail DB API and </p>
+        <p> Alexa to instruct users in the art of cocktail making!</p>
+        <a href="https://github.com/itsdanielguerrero/cocktail-recipes" target="_blank">
           <button class="button" style="vertical-align:middle"><span>Go to GitHub </span></button>
-      </a>
-    </div>
-    <div class="projs">
-      <h3>Order Book</h3>        
-      <p> A Node JS project that tracks all buy and sell</p> 
-      <p>requests from traders for Bitcoin assets using higher</p>
-      <p>order JS functions such as map, filter and, reduce.</p>
-      <a href="https://github.com/itsdanielguerrero/order-book" target="_blank">
-          <button class="button" style="vertical-align:middle"><span>Go to GitHub </span></button>
-      </a>
-    </div>
-  </div>
-</div>
+        </a>
+      </div>
 
-</body>
+      <div class="projtwo">
+        <h3>Movie API</h3>
+        <p>A database backed Express API that has access to AFI </p>
+        <p>top 100 Movies. This a full function backend web application</p></p>
+        <a href="https://github.com/itsdanielguerrero/movie-api" target="_blank">
+          <button class="button" style="vertical-align:middle"><span>Go to GitHub </span></button>
+        </a>
+      </div>
+
+      <div class="projthree">
+        <h3>Order Book</h3>        
+        <p> A Node JS project that tracks all buy and sell</p> 
+        <p>requests from traders for Bitcoin assets using higher</p>
+        <p>order JS functions such as map, filter and, reduce.</p>
+        <a href="https://github.com/itsdanielguerrero/order-book" target="_blank">
+          <button class="button" style="vertical-align:middle"><span>Go to GitHub </span></button>
+        </a>
+      </div>
+
+    </div>
+
+  </body>
 </html>

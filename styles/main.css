@@ -1,53 +1,63 @@
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+a {
+  color: whitesmoke;
+  font-size: x-small;
 }
 
 h1 {
-  color: whitesmoke;
-  margin-top: 25px
+  color: rgb(214, 250, 9);
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 60px;
+}
+
+h4 {
+  color: rgb(214, 250, 9);
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: small;
 }
 
 p {
-  color: whitesmoke;
-
-}
-  
-.sidenav {
-  height: 100%;
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 200px;
-}
-  
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-}
-  
-.sidenav a:hover {
-  color: #f1f1f1;
+  color: rgb(214, 250, 9)
 }
 
-  .image-cropper {
-    width: 190px;
-    height: 190px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-    margin-left: 5px;
+h3 {
+  color: rgb(214, 250, 9)
+}
+
+.links {
+  background-color: black;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(214, 250, 9)
+}
+
+.image-cropper {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 5px;
 }
 
 img {
     display: inline;
     margin: 0 auto;
+    border: red;
     height: auto;
     width: 100%;
 }
@@ -64,28 +74,51 @@ img {
 }
 
   /* Project info */
-.main-proj {
-  background-image: image("computer_display.jpg");   
-}
-
-.projs {
+.projone {
+  color: rgb(214, 250, 9)
   margin: auto;
   width: 100%;
   padding: 10px;
-  text-align: center;
+  text-align: left;
+  position: absolute;
+  top: 500px;
+  left: 16px;
+}
+
+.projtwo {
+  color: rgb(214, 250, 9)
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  text-align: right;
+  position: absolute;
+  top: 700px;
+  right: 16px;
+}
+
+.projthree {
+  color: rgb(214, 250, 9)
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  position: absolute;
+  top: 900px;
+  left: 16px;
 }
 
   /* Button CSS */
 .button {
   display: inline-block;
   border-radius: 16px;
-  background-color: red;
+  background-color: whitesmoke;
   border: none;
-  color: whitesmoke;
+  color: rgb(0, 0, 0);
   text-align: center;
-  font-size: 16px;
-  padding: 20px;
-  width: 175px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 15px;
+  width: 145px;
   transition: all 0.5s;
   cursor: pointer;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
