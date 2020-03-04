@@ -1,6 +1,6 @@
 body {
   font-family: 'Raleway', sans-serif;
-  
+  background-color: black;
 }
 
 a {
@@ -9,30 +9,26 @@ a {
 }
 
 h1 {
-  color: rgb(214, 250, 9);
   font-family: 'Montserrat Subrayada', sans-serif;
   font-size: 60px;
 }
 
+h2 {
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+
 h4 {
-  color: rgb(214, 250, 9);
   font-family: 'Montserrat Subrayada', sans-serif;
   font-size: small;
 }
 
 p {
-  color: rgb(214, 250, 9)
+  color: rgb(0, 14, 209);
+  font-weight: bolder;
 }
 
 h3 {
-  color: rgb(214, 250, 9)
-}
-
-.links {
-  background-color: black;
-  position: absolute;
-  top: 8px;
-  left: 16px;
+  font-family: 'Montserrat Subrayada', sans-serif;
 }
 
 .centered {
@@ -40,7 +36,16 @@ h3 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(214, 250, 9)
+  color: rgb(0, 14, 209)
+}
+
+
+
+.links {
+  background-color: black;
+  position: absolute;
+  top: 8px;
+  left: 16px;
 }
 
 .image-cropper {
@@ -54,7 +59,7 @@ h3 {
   margin-left: 5px;
 }
 
-img {
+.profileimg {
     display: inline;
     margin: 0 auto;
     border: red;
@@ -74,37 +79,90 @@ img {
 }
 
   /* Project info */
+.projh {
+  position: absolute;
+  top: 800px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 14, 209);
+  font-size: 30px;
+}
+
 .projone {
-  color: rgb(214, 250, 9)
   margin: auto;
   width: 100%;
   padding: 10px;
   text-align: left;
   position: absolute;
-  top: 500px;
+  top: 800px;
   left: 16px;
+  color: rgb(0, 14, 209);
 }
 
 .projtwo {
-  color: rgb(214, 250, 9)
   margin: auto;
   width: 100%;
   padding: 10px;
   text-align: right;
   position: absolute;
-  top: 700px;
+  top: 1000px;
   right: 16px;
+  color: rgb(0, 14, 209);
+  
 }
 
 .projthree {
-  color: rgb(214, 250, 9)
   margin: auto;
   width: 100%;
   padding: 10px;
   text-align: left;
   position: absolute;
-  top: 900px;
+  top: 1200px;
   left: 16px;
+  color: rgb(0, 14, 209);
+}
+
+.aboutme {
+  position: absolute;
+  top: 1750px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(0, 14, 209);
+}
+
+.contact {
+  position: absolute;
+  top: 2050px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(0, 14, 209);
+}
+
+  /* Overlay Effect */
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(0, 14, 209, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: whitesmoke;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
 }
 
   /* Button CSS */
